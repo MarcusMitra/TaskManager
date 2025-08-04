@@ -3,7 +3,7 @@
 
   
 
-Este é um aplicativo Web Full Stack com backend em **ASP.NET Core** que consome e apresenta uma lista de tarefas, permitindo busca, visualização de detalhes, atualização e lógica adicional de negócios.
+Backend em **ASP.NET Core** que consome e apresenta uma lista de tarefas, permitindo busca, visualização de detalhes, atualização e lógica adicional de negócios.
 
   
 
@@ -92,9 +92,9 @@ Por padrão, a aplicação está configurada para usar **SQLite** com o arquivo 
 
 ```bash
 
-git clone <url-do-repo> TaskManager
+git clone https://github.com/MarcusMitra/TaskManager TaskManager
 
-cd TaskManager/TaskManagerAPI
+cd TaskManager/TaskManager/TaskManagerAPI
 
 ```
 
@@ -112,11 +112,9 @@ dotnet build
 
 ```bash
 
-dotnet run --project TaskManagerAPI
+dotnet run
 
 ```
-
-A API estará disponível em `https://localhost:7025` (por padrão).
 
   
 
@@ -151,14 +149,3 @@ Os testes cobrem:
 - Comportamento dos endpoints PUT e GET
 
   
-
----
-
-
-  
-
-## Licença
-
-  
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
